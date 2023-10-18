@@ -1,0 +1,45 @@
+.thumbnail {
+    text-align: center;
+    background: linear-gradient(90deg, #1D1D1D 0%, #303030 49.55%, #1D1D1D 99.1%);
+    padding: 2rem;
+}
+
+.thumbnail-container {
+    width: 70%;
+    height: auto;
+    margin: 5rem auto 5rem; 
+    border-radius: 20px;
+    background: linear-gradient(180deg, #FF7171 0%, #661414 100%);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.thumbnail-container h2 {
+    padding: 2rem 0 0;
+
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.50);
+    font-family: Krona One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper-thumbnail {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.inner-thumbnail {
+    width: 100%;
+}
+
+
+.content-thumbnail img {
+    margin: 2rem;
+    width: 40%;
+    aspect-ratio: 16/9;
+    border: none;
+  }

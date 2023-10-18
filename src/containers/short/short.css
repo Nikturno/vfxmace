@@ -1,0 +1,100 @@
+.portfolio {
+  text-align: center;
+  background: linear-gradient(90deg, #1D1D1D 0%, #303030 49.55%, #1D1D1D 99.1%);
+  box-shadow: 0px 0px 100px 0px #000;
+  padding: 2rem;
+}
+
+.portfolio h1 {
+  padding: 4rem;
+
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.50);
+  font-family: Krona One;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.short {
+  width: 70%;
+  height: auto;
+  margin: 5rem auto 5rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #FF7171 0%, #661414 100%);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.short h2 {
+  padding: 2rem 0rem 2rem;
+
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.50);
+  font-family: Krona One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wrapper-short {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-short {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.content-short {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.video-short {
+  position: relative;
+  padding-bottom: 177.78%;
+  overflow: hidden;
+}
+
+.content-short iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content-short h3 {
+  margin: 2rem 0;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Krona One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.content-short p {
+  margin: 0 0 2rem;
+  width: 100%;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Krona One;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

@@ -1,0 +1,118 @@
+.container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    box-shadow: 0px 0px 100px 0px #000 inset;
+}
+
+.container-contact video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem;
+    width: 50%;
+    height: auto;
+    flex-shrink: 0;
+    
+    border-radius: 9px;
+    background: #1E1E1E;
+    box-shadow: 0px 0px 15px 0px #000;
+}
+
+.contact-container h1 {
+    margin: 2rem 0 1rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.50);
+    font-family: Krona One;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-container h2 {
+    margin-left: 5%;
+    margin-bottom: 1rem;
+    max-width: 90%;
+    height: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Krona One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.twitter img {
+    padding: 14px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-links h3 {
+    margin: .5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Krona One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-links p {
+    color: #FFF;
+    text-align: center;
+    font-family: Krona One;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
