@@ -43,3 +43,36 @@
     aspect-ratio: 16/9;
     border: none;
   }
+
+@media screen and (max-width: 850px) {
+    .long {
+        padding: 2rem;
+    }
+    
+    .long-container {
+        width: 70%;
+        height: auto;
+        margin: 1rem auto 1rem;
+    }
+    
+    .long-container h2 {
+        padding: 2rem 0 0;
+        font-size: 30px;
+    }
+    
+    .wrapper-long {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .inner-long {
+        width: 100%;
+    }
+    
+    
+    .content-long iframe {
+        margin: 1rem;
+        width: 80%;
+      }
+}

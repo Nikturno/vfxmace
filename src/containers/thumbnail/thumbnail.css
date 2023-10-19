@@ -43,3 +43,36 @@
     aspect-ratio: 16/9;
     border: none;
   }
+
+@media screen and (max-width: 850px) {
+    .thumbnail {
+        padding: 2rem;
+    }
+    
+    .thumbnail-container {
+        width: 70%;
+        height: auto;
+        margin: 1rem auto 1rem; 
+    }
+    
+    .thumbnail-container h2 {
+        padding: 2rem 0 0;
+        font-size: 30px;
+    }
+    
+    .wrapper-thumbnail {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .inner-thumbnail {
+        width: 100%;
+    }
+    
+    
+    .content-thumbnail img {
+        margin: 1rem;
+        width: 80%;
+      }
+}

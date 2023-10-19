@@ -112,7 +112,67 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
+@media screen and (max-width: 850px) {
+    .container-contact {
+        width: 100%;
+    }
+    
+    
+    .contact-container {
+        margin: 15rem;
+        width: 90%;
+    }
+    
+    .contact-container h1 {
+        margin: 2rem 0 1rem;
+        font-size: 50px;
+    }
+    
+    .contact-container h2 {
+        margin-left: 5%;
+        margin-bottom: 1rem;
+        max-width: 90%;
+        font-size: 15px;
+    }
+    
+    .contact-links {
+        flex-direction: row;
+        margin: 2rem;
+    }
+    
+    .twitter {
+        margin-top: 2rem;
+    }
+    
+    .twitter img {
+        padding: 14px;
+    }
+    
+    .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    
+    .discord {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    
+    .contact-links h3 {
+        margin: .5rem;
+        font-size: 20px;
+    }
+    
+    .contact-links p {
 
+        font-size: 12px;
+    }
+}
